@@ -1,4 +1,4 @@
-import SimpleLightbox from 'simplelightbox';
+//import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
 const images = [
@@ -95,8 +95,8 @@ const itemsMarkUp = createGalleryItemMarkUp(images);
 galleryItemsUl.append(...itemsMarkUp);
 
 //popup
-let lightbox = new SimpleLightbox('.gallery a', {
-  showCounter: false,
-  captionsData: 'alt',
-  captionDelay: 250,
-});
+// let lightbox = new SimpleLightbox('.gallery a', {
+//   showCounter: false,
+//   captionsData: 'alt',
+//   captionDelay: 250,
+// });
